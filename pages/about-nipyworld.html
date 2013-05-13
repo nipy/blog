@@ -1,118 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>World of Nipy</title>
-    <meta name="description" content="">
-    <meta name="author" content="Matthew Brett">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="description" content="About working on NIPY" />
+  <meta name="keywords" content="NIPY, Python, Imaging, Neuroimaging, FMRI" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About this blog</title>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-    <script src="http://matthew-brett.github.io/nipyworld-blog/theme/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="/theme/css/styles.min.css?9b05ffb8">
 
-    <!-- Le styles -->
-    <link href="http://matthew-brett.github.io/nipyworld-blog/theme/bootstrap.min.css" rel="stylesheet">
-    <link href="http://matthew-brett.github.io/nipyworld-blog/theme/bootstrap.min.responsive.css" rel="stylesheet">
-    <link href="http://matthew-brett.github.io/nipyworld-blog/theme/local.css" rel="stylesheet">
-    <link href="http://matthew-brett.github.io/nipyworld-blog/theme/pygments.css" rel="stylesheet">
-
-</head>
-
+  <link rel="shortcut icon" type="image/png" href="" />
+  </head>
 <body>
-
-<div class="navbar">
-    <div class="navbar-inner">
-    <div class="container">
-
-         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-         </a>
-
-        <a class="brand" href="http://matthew-brett.github.io/nipyworld-blog">World of Nipy</a>
-
-        <div class="nav-collapse">
-        <ul class="nav">
-                    
-                            <li><a href="http://matthew-brett.github.io/nipyworld-blog/pages/about-nipyworld.html">About this blog</a></li>
-                    <li><a href="http://matthew-brett.github.io/nipyworld-blog/pages/nipy-links.html">About NIPY</a></li>
-                        </ul>
-        </div>
-        
+<header class="main-header">
+    <hgroup>
+    <div>
+      <img src="" style="margin-left: 34px; margin-top: 30px;">
     </div>
-    </div>
-</div>
+    <h1><a href=http://matthew-brett.github.io/nipyworld-blog id="home-link">World of Nipy</a></h1>
+    <h2>Ash from the cigarette of working on NIPY</h2>
+  </hgroup>
+  <nav>
+    <ul class="main-nav">
+      
+                    <li><a href="http://matthew-brett.github.io/nipyworld-blog/pages/about-nipyworld.html">About this blog</a></li>
+              <li><a href="http://matthew-brett.github.io/nipyworld-blog/pages/nipy-links.html">About NIPY</a></li>
+              
+      
+      <li><a href="http://matthew-brett.github.io/nipyworld-blog/" id="feed-link">Feed</a></li>
+      <li><a href="mailto:matthew.brett@gmail.com?subject=Hello" id="contact-link">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="http://pelican.notmyidea.org" class="fork-me">Powered by Pelican.</a>
 
-<div class="container">
-    <div class="content">
-    <div class="row">
-
-        <div class="span9">
-                
-<section id="content" class="body">    
-    <h2 class="content-title">About this blog</h2>
-        <p>This is the blog for the <a href="http://nipy.org">NIPY</a> community of projects.</p>
+</header>
+<section class="main-section">
+    <h1 class="entry-title">About this blog</h1>
+    
+    <br /><br />
+    <p>This is the blog for the <a href="http://nipy.org">NIPY</a> community of projects.</p>
 <p>It used to be hosted at <a href="http://nipyworld.blogspot.com">Blogspot</a>.  There you
 can find posts before May 2013.</p>
 <!--- vim:ft=markdown -->
 </section>
-        </div>
-        
-        <div class="span3">
+<div class="mobile-nav">
+  <span class="nav-btn" id="mobile-nav-btn">
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+  </span>
+  <h3>
+    <a href="http://matthew-brett.github.io/nipyworld-blog/" id="mobile-title">http://matthew-brett.github.io/nipyworld-blog</a>
+  </h3>
+</div>
 
-            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Site
-                </li>
-            
-                <li><a href="http://matthew-brett.github.io/nipyworld-blog/">Archives</a>
-                <li><a href="http://matthew-brett.github.io/nipyworld-blog/tags.html">Tags</a>
-                <li><a href="http://matthew-brett.github.io/nipyworld-blog/" rel="alternate">Atom feed</a></li>
-                            </ul>
-            </div>
+<script src="/theme/gen/packed.js?0db83157"></script>
+
+<script>
+    // Function to get the Maximam value in Array
+    Array.max = function( array ) {
+        return Math.max.apply( Math, array );
+    };
+
+    var heights = [];
+    heights.push($('.main-header').height());
+    heights.push($('.main-section').height());
+    heights.push($(window).height());
+
+    var max_height = Array.max(heights);
+    $('.main-header').height(max_height+80);
+
+    $('#mobile-title').text(window.location.hostname);
 
 
-                        <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Categories
-                </li>
-                
-                                <li><a href="http://matthew-brett.github.io/nipyworld-blog/category/general.html">general</a></li>
-                                   
-            </ul>
-            </div>
-            
 
-                        <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
-            <ul class="nav nav-list">
-                <li class="nav-header"> 
-                Links
-                </li>
-            
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://nipyworld.blogspot.com">Old nipy blog</a></li>
-                            <li><a href="http://matthew.dynevor.org">My pages</a></li>
-                            <li><a href="http://nipy.org/">Nipy</a></li>
-                        </ul>
-            </div>
-            
 
-            
-        </div>  
-    </div>     </div> 
-<footer>
-<br />
-<p><a href="http://matthew-brett.github.io/nipyworld-blog">World of Nipy</a> &copy; Matthew Brett 2012</p>
-</footer>
+</script>
 
-</div> <!-- /container -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
- 
 </body>
-</html>
