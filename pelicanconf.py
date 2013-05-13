@@ -33,13 +33,13 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # Change them
-THEME = pjoin('..', 'pelican-themes', 'syte')
+THEME = pjoin('pelican-themes', 'syte')
 
 # Add downloads directory to static paths
 STATIC_PATHS = ['images', 'download']
 
 # Plugins
-PLUGIN_PATH = pjoin('..', 'pelican-plugins')
+PLUGIN_PATH = pjoin('pelican-plugins')
 PLUGINS = ['assets']
 
 # Syte stuff
