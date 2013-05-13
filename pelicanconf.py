@@ -19,7 +19,6 @@ TRANSLATION_FEED_ATOM = None
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Old nipy blog', 'http://nipyworld.blogspot.com'),
-          ('My pages', 'http://matthew.dynevor.org'),
           ('Nipy', 'http://nipy.org/'))
 
 # Social widget
@@ -32,22 +31,18 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-# Change them
-THEME = pjoin('pelican-themes', 'syte')
+# Change theme
+THEME = pjoin('pelican-themes', 'tuxlite_tbs')
 
 # Add downloads directory to static paths
 STATIC_PATHS = ['images', 'download']
-
-# Plugins
-PLUGIN_PATH = pjoin('pelican-plugins')
-PLUGINS = ['assets']
 
 # Syte stuff
 ABOUT = u'Ash from the cigarette of working on NIPY'
 SITE_DESCRIPTION = (u'About working on NIPY')
 SITE_KEYWORDS = u'NIPY, Python, Imaging, Neuroimaging, FMRI'
 GOOGLE_PLUSONE = True
-CONTACT = u'matthew.brett@gmail.com'
+CONTACT = u'nipy-devel@neuroimaging.scipy.com'
 
 # Pages that should be served as links (all pages in contents/pages)
 DISPLAY_PAGES_ON_MENU = True
