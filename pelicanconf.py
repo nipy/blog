@@ -3,9 +3,9 @@
 from __future__ import unicode_literals
 from os.path import join as pjoin
 
-AUTHOR = u'Matthew Brett'
-SITENAME = u'World of Nipy'
-SITEURL = 'http://matthew-brett.github.io/nipyworld-blog'
+AUTHOR = u'The Nipy developers'
+SITENAME = u'The Nipy blog'
+SITEURL = 'http://matthew-brett.github.io/blog'
 
 TIMEZONE = 'America/Los_Angeles'
 
