@@ -43,9 +43,11 @@ PLUGIN_PATH = pjoin('..', 'pelican-plugins')
 PLUGINS = ['assets']
 
 # Syte stuff
-ABOUT = (u'About working on NIPY. NIPY is Neuroimaging in Python: '
-         'http://nipy.org')
-SITE_DESCRIPTION = u'About working on NIPY'
+ABOUT = u'Ash from the cigarette of working on NIPY'
+SITE_DESCRIPTION = (u'About working on NIPY')
 SITE_KEYWORDS = u'NIPY, Python, Imaging, Neuroimaging, FMRI'
 GOOGLE_PLUSONE = True
 CONTACT = u'matthew.brett@gmail.com'
+
+# Pages that should be served as links (all pages in contents/pages)
+DISPLAY_PAGES_ON_MENU = True
