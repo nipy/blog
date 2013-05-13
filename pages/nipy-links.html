@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="About working on NIPY" />
+  <meta name="keywords" content="NIPY, Python, Imaging, Neuroimaging, FMRI" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About NIPY</title>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <link rel="stylesheet" href="/theme/css/styles.min.css?9b05ffb8">
+
+  <link rel="shortcut icon" type="image/png" href="" />
+  </head>
+<body>
+<header class="main-header">
+    <hgroup>
+    <div>
+      <img src="" style="margin-left: 34px; margin-top: 30px;">
+    </div>
+    <h1><a href=http://nipyworld.dynevor.org id="home-link">World of Nipy</a></h1>
+    <h2>Ash from the cigarette of working on NIPY</h2>
+  </hgroup>
+  <nav>
+    <ul class="main-nav">
+      
+                    <li><a href="http://nipyworld.dynevor.org/pages/about-nipyworld.html">About this blog</a></li>
+              <li><a href="http://nipyworld.dynevor.org/pages/nipy-links.html">About NIPY</a></li>
+              
+      
+      <li><a href="http://nipyworld.dynevor.org/" id="feed-link">Feed</a></li>
+      <li><a href="mailto:matthew.brett@gmail.com?subject=Hello" id="contact-link">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="http://pelican.notmyidea.org" class="fork-me">Powered by Pelican.</a>
+
+</header>
+<section class="main-section">
+    <h1 class="entry-title">About NIPY</h1>
+    
+    <br /><br />
+    <p>NIPY is two things.</p>
+<ol>
+<li>
+<p>It is the <a href="http://nipy.org">NIPY community</a> of projects that use Python for
+   neuroimaging</p>
+</li>
+<li>
+<p>It is the <a href="http://nipy.org/nipy">NIPY library</a> for analysis of functional
+   MRI.
+<!--- vim:ft=markdown --></p>
+</li>
+</ol>
+</section>
+<div class="mobile-nav">
+  <span class="nav-btn" id="mobile-nav-btn">
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+  </span>
+  <h3>
+    <a href="http://nipyworld.dynevor.org/" id="mobile-title">http://nipyworld.dynevor.org</a>
+  </h3>
+</div>
+
+<script src="/theme/gen/packed.js?0db83157"></script>
+
+<script>
+    // Function to get the Maximam value in Array
+    Array.max = function( array ) {
+        return Math.max.apply( Math, array );
+    };
+
+    var heights = [];
+    heights.push($('.main-header').height());
+    heights.push($('.main-section').height());
+    heights.push($(window).height());
+
+    var max_height = Array.max(heights);
+    $('.main-header').height(max_height+80);
+
+    $('#mobile-title').text(window.location.hostname);
+
+
+
+
+</script>
+
+</body>
