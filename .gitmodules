@@ -4,3 +4,6 @@
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = git://github.com/getpelican/pelican-plugins.git
+[submodule "ghp-import"]
+	path = ghp-import
+	url = git://github.com/davisp/ghp-import.git
