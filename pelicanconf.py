@@ -5,16 +5,21 @@ from os.path import join as pjoin
 
 AUTHOR = u'The Nipy developers'
 SITENAME = u'The Nipy blog'
-SITEURL = 'http://matthew-brett.github.io/blog'
+SITEURL = 'http://nipy.github.io/blog'
 
 TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+# atom feeds
+FEED_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+
+# RSS feeds
+FEED_RSS = 'feeds/all.rss.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
