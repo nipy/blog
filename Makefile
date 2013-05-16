@@ -86,6 +86,6 @@ github: github-origin
 
 github-%: publish
 	./ghp-import/ghp-import $(OUTPUTDIR)
-	git push $* gh-pages
+	git push $* gh-pages --force
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload github
