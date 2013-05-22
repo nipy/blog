@@ -85,6 +85,7 @@ s3_upload: publish
 github: github-origin
 
 github-%: publish
+	cp CNAME $(OUTPUTDIR)
 	./ghp-import/ghp-import $(OUTPUTDIR)
 	git push $* gh-pages --force
 
