@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://nipy.github.io/blog'
+SITEURL = 'http://blog.nipy.org'
 RELATIVE_URLS = False
 
 # atom feeds

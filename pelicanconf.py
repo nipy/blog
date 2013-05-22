@@ -5,7 +5,7 @@ from os.path import join as pjoin
 
 AUTHOR = u'The Nipy developers'
 SITENAME = u'The Nipy blog'
-SITEURL = 'http://nipy.github.io/blog'
+SITEURL = 'http://blog.nipy.org'
 
 TIMEZONE = 'America/Los_Angeles'
 
