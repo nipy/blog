@@ -1,6 +1,6 @@
-Title: What a scientist does not need to know about programming
-Date: 2013-05-26 12:00
-Tags: Nipy, Nipyworld, Blog, scientific software, software, programming, code
+Title: Unscientific programming
+Date: 2013-05-26 15:30
+Tags: scientific software, software, programming, code
 Category: general
 Slug: unscientific-programming
 Author: Matthew Brett
@@ -13,15 +13,16 @@ reproducible research.
 One question struck me as fundamental: *do scientists have to learn to be
 software engineers?*
 
-I think the common answer to this is "No - scientific coding is different".  The
-"No" camp points out that scientists use code in a different way to software
-engineers.  Science is exploration, and so is scientific coding.  Scientific
-code is provisional, often changing.  There is no spec, there is no production
-system that must *just work*.  We are trying stuff out, seeing what works,
-adjusting to our better understanding of the data and the ideas.
+I think the common answer to this is "No - scientific coding is different".
+The "No" camp points out that scientists use code in a different way to
+software engineers.  Science is exploration, and so is scientific coding.
+Scientific code is provisional, often changing.  There is no specfication,
+there is no production system that must *just work*.  We are trying stuff out,
+seeing what works, adjusting to our better understanding of the data and the
+ideas.
 
-The canonical software engineer runs a web application with some database
-behind it.
+Maybe the scientist's idea of the canonical software engineer is someone who
+writes and hosts a web application with some database behind it.
 
 Accepting the "No", we look at things that software engineers should learn:
 
@@ -61,8 +62,34 @@ Accepting the "No", we look at things that software engineers should learn:
 I think that these set of beliefs lie at the heart of the problem for
 reproducible science.
 
-The job of the software engineer is to write code that other people can use.
-The open-source software engineer writes code that others can read and change.
+The beliefs rest on the following model of writing scientific code:
 
-<!--- vim:ft=markdown -->
+## A folk model of scientific code
+
+A scientist named A writes some code.  They check the code.  They confirm it
+is working.  Most likely this means the code is free of major errors.
+
+Another scientist named B is reading some results published by A. They can
+assume that the results are free of major errors.
+
+## Living with the folk model
+
+Now everything makes sense.  Version control, testing, code review, releases,
+documentation are great, of course, but if we can assume there are no major
+errors, then - why would B want to see my code?  If B gets my code, why would
+she need to understand it?  Why would she need to know what version it was, or
+how that related to my paper?  She should assume that there are no major
+errors.
+
+## Rejecting the folk model
+
+The folk model is not just too simple, it is flat-out wrong.  We [make
+mistakes](|filename|ubiquity-of-error.md) all the time.  *All the time*.  If
+you know that, then you know that B needs to check your stuff.  They can't do
+science without checking your stuff.  If they need to check your stuff, you
+need to write your code *for production*.  Then, nothing is optional.  We all
+need; version control, testing, code review, releases, documentation.
+
+<!-- vim:ft=markdown
+-->
 
