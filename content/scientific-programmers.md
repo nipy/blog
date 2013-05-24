@@ -1,7 +1,7 @@
 Title: Unscientific programming
 Date: 2013-05-26 15:30
 Tags: scientific software, software, programming, code
-Category: general
+Category: General
 Slug: unscientific-programming
 Author: Matthew Brett
 Summary: Scientific programming is programming

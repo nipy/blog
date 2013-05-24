@@ -1,7 +1,7 @@
 Title: The ubiquity of error
 Date: 2013-05-26 15:00
 Tags: scientific software, software, programming, code, reproducible research
-Category: general
+Category: General
 Slug: ubiquity-of-error
 Author: Matthew Brett
 Summary: Computers make us forget that make mistakes
