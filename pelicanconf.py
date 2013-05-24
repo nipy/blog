@@ -51,3 +51,6 @@ CONTACT = u'nipy-devel@neuroimaging.scipy.com'
 
 # Pages that should be served as links (all pages in contents/pages)
 DISPLAY_PAGES_ON_MENU = True
+
+# Copy CNAME file
+FILES_TO_COPY=(('extra/CNAME', 'CNAME'),)
