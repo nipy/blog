@@ -15,8 +15,7 @@ Working on the site goes like:
 1. Install [Pelican](http://github.com/getpelican/pelican)
 1. Clone this repo from <http://github.com/matthew-brett/blog> or fork it to
    your own Github account.
-1. ``git submodule update --init``
-
+1. ``git submodule update --init --recursive``
 
 ## After that
 
