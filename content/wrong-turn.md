@@ -31,7 +31,7 @@ much to learn from each other".
 [^basili]: Basili, Victor R., et al. "Understanding the
     High-Performance-Computing Community." (2008).
 
-Another sentence in the Joppa article led me to interesting places:
+Another couple of sentences in the Joppa article led me to interesting places:
 
 > Reliance on personal recommendations and trust is a strategy with risks to
 > science and scientist. "End-user developers" commonly create scientific
