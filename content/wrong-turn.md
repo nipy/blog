@@ -88,7 +88,7 @@ think working out how to talk to our colleagues. That experience is very hard
 to teach.
 
 These articles gave me a new way to think about the false separation of
-"software" and "science". It is mysterious that we have make this separation,
+"software" and "science". It is mysterious that we make this separation,
 because my whole experience tells me they are closely linked. I wonder whether
 we make this separation because we have come under the unconscious influence
 of the movement that Kelley and Vessey describe.  It is easy to see how
