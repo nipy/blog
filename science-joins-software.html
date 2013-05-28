@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>A separation too early | The Nipy blog</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="http://blog.nipy.org/theme/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="http://blog.nipy.org/theme/css/bootstrap-responsive.min.css" type="text/css" />
+
+        <link rel="stylesheet" href="http://blog.nipy.org/theme/css/main.css" type="text/css" />
+                <link href="http://blog.nipy.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Nipy blog Atom Feed" />
+                        <link href="http://blog.nipy.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="The Nipy blog RSS Feed" />
+        </head>
+
+<body id="index">
+    <div class="row-fluid">
+        <div class="span10 offset1">
+            <header id="banner" >
+                <h1>
+                    <a href="http://blog.nipy.org/">The Nipy blog </a>
+                </h1>
+                <nav class="navbar">
+                    <div class="navbar-inner">
+                        <ul class="nav">
+                                                                                                    <li><a href="http://blog.nipy.org/pages/about-nipyworld.html">About this blog</a></li>
+                                                    <li><a href="http://blog.nipy.org/pages/nipy-links.html">About NIPY</a></li>
+                                                                                                                            <li class="active"><a href="http://blog.nipy.org/category/general.html">General</a></li>
+                                                                        </ul>
+
+                                            </div>
+                </nav>
+            </header><!-- /#banner -->
+        </div>
+    </div>
+
+    <div class="row-fluid">
+        <div class="span10 offset1">
+            <div class="row-fluid">
+                <div class="span10">
+                    <section  >
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://blog.nipy.org/science-joins-software.html" rel="bookmark"
+           title="Permalink to A separation too early">A separation too early</a></h1>
+          </header>
+
+    <div class="entry-content">
+      <footer class="post-info">
+        <address class="vcard author">
+        by <a class="url fn" href="http://blog.nipy.org/author/matthew-brett.html">Matthew Brett</a>
+    </address>
+    
+    in <a href="http://blog.nipy.org/category/general.html">General</a>
+
+    on 2013-05-27
+
+            |
+        tags:         <a href="http://blog.nipy.org/tag/scientific-software.html">scientific software</a>
+                <a href="http://blog.nipy.org/tag/software-engineering.html">software engineering</a>
+                <a href="http://blog.nipy.org/tag/programming.html">programming</a>
+                <a href="http://blog.nipy.org/tag/code.html">code</a>
+            
+    
+    
+        
+</footer><!-- /.post-info -->      <p>I followed a Google+ link to an article that has just come out in Science
+magazine. The article is "Troubling Trends in Scientific
+Software Use" by Lucas Joppa and others <sup id="fnref:joppa"><a class="footnote-ref" href="#fn:joppa" rel="footnote">1</a></sup>.</p>
+<p>I did not find Joppa's article very satisfying, but there were some
+interesting references.  For example (from Joppa <em>et al</em>):</p>
+<blockquote>
+<p>From fields such as high-performance computing, we learn key insights and
+best practices for how to develop, standardize, and implement software (11)</p>
+</blockquote>
+<p>Reference 11 is an article by Victor Basili and others on "Understanding the
+High-Performance-Computing Community" <sup id="fnref:basili"><a class="footnote-ref" href="#fn:basili" rel="footnote">2</a></sup>. It is a thoughtful reflection
+on the experience of academic software engineers working with scientists using
+massively parallel computing. The message I took from the article was that
+scientists may have good reasons to reject suggestions from academic software
+engineers.  This is often because the solutions are too general to be useful
+for a particular problem.  The last sentence from the article is "We've much
+to learn from each other".</p>
+<p>Another couple of sentences in the Joppa article led me to interesting places:</p>
+<blockquote>
+<p>Reliance on personal recommendations and trust is a strategy with risks to
+science and scientist. "End-user developers" commonly create scientific
+software (17, 21, 22) <sup id="fnref:joppa"><a class="footnote-ref" href="#fn:joppa" rel="footnote">1</a></sup></p>
+</blockquote>
+<p>Reference (22) is "A Software Chasm: Software Engineering and Scientific
+Computing" by Diane Kelley <sup id="fnref:kelly"><a class="footnote-ref" href="#fn:kelly" rel="footnote">3</a></sup>. Kelley also has some interesting thoughts
+on the separation of science and software engineering:</p>
+<blockquote>
+<p>Creating the chasm</p>
+<p>In a 1997 paper, Iris Vessey described a shift in computing philosophy that
+occurred in the late 1960s. She quoted George E. Forsyth, the ACM's president
+at that time, as stating that computer science was a field of its own,
+separate from the application domains. The result, as Vessey points out, was
+the insistence that anyone who wanted to be taken seriously in the field of
+computing, and software engineering, must develop domain-independent
+techniques, methods, and paradigms. The pressure was such that claims of
+broad applicability became commonplace. So, the bridge between software
+engineering and any application domain became a single massive structure that
+everyone had to use.</p>
+</blockquote>
+<p>This is the relevant quote from Vessey (1997)<sup id="fnref:vessey"><a class="footnote-ref" href="#fn:vessey" rel="footnote">4</a></sup>:</p>
+<blockquote>
+<p>Then followed a debate, which endured for over a decade, that pitted
+academia against the computing profession. The notions of traditional
+computer scientists steeped in the notion of theory and the stigma of all
+things "applied" led to the following statement by George E. Forsyth,
+President of ACM, in 1965: "... the core of computer science has become
+and will remain a field of its own, ahead of, and separate from the
+application domain specialists." This philosophy led, not only to the
+creation of generic "solutions" to problems, but also to claims that any
+"creation" was applicable in all situations, because to state otherwise
+would have branded the creator as lacking in academic respectability.</p>
+</blockquote>
+<p>I wonder if this separation has had a larger effect on our thinking than we
+recognize.</p>
+<p>For example, our original NIPY grant application asked for salaries for two
+full-time programmers to help us apply software engineering methods to writing
+neuroimaging software.  We did hire two programmers but we had given them an
+impossible job.  To do a good job, they had to now become experts in a
+scientific field they did not know. Useful code and documentation had to be
+written so that other scientists in the field would find it easy to follow.
+To do this, you need to know the field.  We scientists spend more time than we
+think working out how to talk to our colleagues. That experience is very hard
+to teach.</p>
+<p>These articles gave me a new way to think about the false separation of
+"software" and "science". It is mysterious that we make this separation,
+because my whole experience tells me they are closely linked. I wonder whether
+we make this separation because we have come under the unconscious influence
+of the movement that Kelley and Vessey describe.  It is easy to see how
+tempting it is.   How easy life would be if we really could pay a programmer
+to write up our ideas as we sketch them airily on a white-board and retire to
+the garden, to think great thoughts.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:joppa">
+<p>Joppa, Lucas N., et al. "Troubling Trends in Scientific Software
+Use." Science 340.6134 (2013): 814-815.&#160;<a class="footnote-backref" href="#fnref:joppa" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:basili">
+<p>Basili, Victor R., et al. "Understanding the
+High-Performance-Computing Community." (2008).&#160;<a class="footnote-backref" href="#fnref:basili" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:kelly">
+<p>Kelly, Diane F. "A software chasm: Software engineering and
+scientific computing." Software, IEEE 24.6 (2007): 120-119.&#160;<a class="footnote-backref" href="#fnref:kelly" rev="footnote" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:vessey">
+<p>Vessey, Iris. "Problems versus solutions: the role of the application
+domain in software." Papers presented at the seventh workshop on Empirical
+studies of programmers. ACM, 1997.&#160;<a class="footnote-backref" href="#fnref:vessey" rev="footnote" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</section>
+                </div>
+                <div class="span2">
+                    <section id="sidebar">
+                                                <div>
+                                <h2>Links</h2>
+                                <ul>
+                                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                                    <li><a href="http://nipyworld.blogspot.com">Old nipy blog</a></li>
+                                                                    <li><a href="http://nipy.org/">Nipy</a></li>
+                                                                </ul>
+                            </div><!-- /.Links -->
+                                                            </section><!-- /#sidebar -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="site-footer">
+        <div class="row-fluid">
+            <div class="span10 offset1">
+                <address>
+                    <p>
+                        This blog is proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                    </p>
+                    <p>
+                        <a href="http://github.com/jsliang/pelican-fresh/">Fresh</a> is a responsive theme designed by <a href="http://jsliang.com/">jsliang</a>.
+                        Special thanks to <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a> and <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a>.
+                    </p>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://blog.nipy.org/theme/js/bootstrap.min.js"></script>
+</body>
+</html>

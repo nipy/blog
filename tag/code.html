@@ -1,134 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-        <title>The Nipy blog - code</title>
+        <title>The Nipy blog - code | The Nipy blog</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="http://matthew-brett.github.io/blog/theme/css/main.css" type="text/css" />
-                <link href="http://matthew-brett.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Nipy blog Atom Feed" />
-                        <link href="http://matthew-brett.github.io/blog/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="The Nipy blog RSS Feed" />
-        
-        <!--[if IE]>
-                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="http://matthew-brett.github.io/blog/css/ie.css"/>
-                <script src="http://matthew-brett.github.io/blog/js/IE8.js" type="text/javascript"></script><![endif]-->
+        <link rel="stylesheet" href="http://blog.nipy.org/theme/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="http://blog.nipy.org/theme/css/bootstrap-responsive.min.css" type="text/css" />
 
-        <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="http://matthew-brett.github.io/blog/css/ie6.css"/><![endif]-->
+        <link rel="stylesheet" href="http://blog.nipy.org/theme/css/main.css" type="text/css" />
+                <link href="http://blog.nipy.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Nipy blog Atom Feed" />
+                        <link href="http://blog.nipy.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="The Nipy blog RSS Feed" />
+        </head>
 
-</head>
+<body id="index">
+    <div class="row-fluid">
+        <div class="span10 offset1">
+            <header id="banner" >
+                <h1>
+                    <a href="http://blog.nipy.org/">The Nipy blog </a>
+                </h1>
+                <nav class="navbar">
+                    <div class="navbar-inner">
+                        <ul class="nav">
+                                                                                                    <li><a href="http://blog.nipy.org/pages/about-nipyworld.html">About this blog</a></li>
+                                                    <li><a href="http://blog.nipy.org/pages/nipy-links.html">About NIPY</a></li>
+                                                                                                                            <li ><a href="http://blog.nipy.org/category/general.html">General</a></li>
+                                                                        </ul>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="http://matthew-brett.github.io/blog/">The Nipy blog </a></h1>
-                <nav><ul>
-                                                    <li><a href="http://matthew-brett.github.io/blog/pages/about-nipyworld.html">About this blog</a></li>
-                                    <li><a href="http://matthew-brett.github.io/blog/pages/nipy-links.html">About NIPY</a></li>
-                                                                    <li ><a href="http://matthew-brett.github.io/blog/category/general.html">general</a></li>
-                                                </ul></nav>
-        </header><!-- /#banner -->
-                
-            
+                                            </div>
+                </nav>
+            </header><!-- /#banner -->
+        </div>
+    </div>
 
-                            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://matthew-brett.github.io/blog/unscientific-programming.html">What a scientist does not need to know about programming</a></h1> 
-                    <footer class="post-info">
-        <abbr class="published" title="2013-05-26T12:00:00">
-                Sun 26 May 2013
-        </abbr>
+    <div class="row-fluid">
+        <div class="span10 offset1">
+            <div class="row-fluid">
+                <div class="span10">
+                    <section >
+<h1>Articles tagged with "code"</h1>
 
-                <address class="vcard author">
-                By <a class="url fn" href="http://matthew-brett.github.io/blog/author/matthew-brett.html">Matthew Brett</a>
-        </address>
-        <p>In <a href="http://matthew-brett.github.io/blog/category/general.html">general</a>. </p>
-<p>tags: <a href="http://matthew-brett.github.io/blog/tag/nipy.html">Nipy</a><a href="http://matthew-brett.github.io/blog/tag/nipyworld.html">Nipyworld</a><a href="http://matthew-brett.github.io/blog/tag/blog.html">Blog</a><a href="http://matthew-brett.github.io/blog/tag/scientific-software.html">scientific software</a><a href="http://matthew-brett.github.io/blog/tag/software.html">software</a><a href="http://matthew-brett.github.io/blog/tag/programming.html">programming</a><a href="http://matthew-brett.github.io/blog/tag/code.html">code</a></p>
-</footer><!-- /.post-info --><p>We various of the Berkeley NIPY crowd were in a Mexican restaurant yesterday
-lunchtime. We discussed the IPython notebook and scientific programming and
-reproducible research.</p>
-<p>One question struck me as fundamental: <em>do scientists have to learn to be
-software engineers?</em></p>
-<p>I think the common answer to this is "No - scientific coding is different".  The
-"No" camp points out that scientists use code in a different way to software
-engineers.  Science is exploration, and so is scientific coding.  Scientific
-code is provisional, often changing.  There is no spec, there is no production
-system that must <em>just work</em>.  We are trying stuff out, seeing what works,
-adjusting to our better understanding of the data and the ideas.</p>
-<p>The canonical software engineer runs a web application with some database
-behind it.</p>
-<p>Accepting the "No", we look at things that software engineers should learn:</p>
-<ol>
-<li>Version control.  Essential for a software engineer, apparently, because
-   they need to be able to rollback their changes, and keep track of released
-   and development versions.  Desirable maybe for a scientist, but not
-   essential, because the code never goes into production, and we always use
-   the latest version of the code.</li>
-<li>Testing.  Essential for a software engineer, otherwise they may release
-   code that corrupts a database of financial transactions or delivers the
-   wrong item to your address.  Desirable maybe for a scientist, but not
-   essential because the nature of the code changes so often that it would
-   only slow things down to write exhaustive tests, only for the code to
-   change track and make the tests obsolete.</li>
-<li>Code review.  Essential for a software engineer, because they work in teams
-   with other software engineers.  This is their job, to write code, and they
-   can learn from each other. Desirable maybe for a scientist, but not
-   essential because each scientist owns their own problem and so only they
-   can understand their code.  Explaining the code is time-consuming and slows
-   progress in developing new ideas.  Others in the lab are not software
-   engineers, so they are not trained to review code, they will not enjoy it
-   and they will not do a good job.</li>
-<li>Releases.  Essential for a software engineer because they may be paid to
-   provide code that others can use.  The release labels code that can be
-   used.  The software engineer can and should make sure the code works as
-   advertised.  Desirable maybe for a scientist, but not essential, because
-   the code changes often, and the code may be written to solve a very
-   specific problem that could not be of much interest to another researcher.
-   If the other researcher is interested, they should make the effort to work
-   out how to use the code, that is not the job of the author-scientist, they
-   are not paid to support software, but to produce science.</li>
-<li>Documentation.  Essential for a software engineer because they want their
-   code to be used correctly by other people.  Desirable but not essential for
-   the scientist because scientific code is not for distribution except to
-   other scientists who must take responsibility for the code themselves.</li>
-</ol>
-<p>I think that these set of beliefs lie at the heart of the problem for
-reproducible science.</p>
-<p>The job of the software engineer is to write code that other people can use.
-The open-source software engineer writes code that others can read and change.</p>
-<!--- vim:ft=markdown -->                </article>
-                                    <p class="paginator">
-        Page 1 / 1
-    </p>
-                            </aside><!-- /#featured -->
-                                                </ol><!-- /#posts-list -->
-                        </section><!-- /#content -->
-                    <section id="extras" class="body">
-                        <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
-                                                    <li><a href="http://nipyworld.blogspot.com">Old nipy blog</a></li>
-                                                    <li><a href="http://nipy.org/">Nipy</a></li>
-                                                </ul>
-                </div><!-- /.blogroll -->
-                                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://matthew-brett.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                                                        <li><a href="http://matthew-brett.github.io/blog/feeds/all.rss.xml" type="application/rss+xml" rel="alternate">rss feed</a></li>
-                            
-                                                </ul>
-                </div><!-- /.social -->
-                </section><!-- /#extras -->
+<dl>
+    <dt>2013-05-27</dt>
+    <dd><a href="http://blog.nipy.org/science-joins-software.html">A separation too early</a></dd>
+    <dt>2013-05-26</dt>
+    <dd><a href="http://blog.nipy.org/unscientific-programming.html">Unscientific programming</a></dd>
+    <dt>2013-05-26</dt>
+    <dd><a href="http://blog.nipy.org/ubiquity-of-error.html">The ubiquity of error</a></dd>
+</dl>
+</section>
+                </div>
+                <div class="span2">
+                    <section id="sidebar">
+                                                <div>
+                                <h2>Links</h2>
+                                <ul>
+                                                                    <li><a href="http://getpelican.com/">Pelican</a></li>
+                                                                    <li><a href="http://nipyworld.blogspot.com">Old nipy blog</a></li>
+                                                                    <li><a href="http://nipy.org/">Nipy</a></li>
+                                                                </ul>
+                            </div><!-- /.Links -->
+                                                            </section><!-- /#sidebar -->
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+    <footer id="site-footer">
+        <div class="row-fluid">
+            <div class="span10 offset1">
+                <address>
+                    <p>
+                        This blog is proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                    </p>
+                    <p>
+                        <a href="http://github.com/jsliang/pelican-fresh/">Fresh</a> is a responsive theme designed by <a href="http://jsliang.com/">jsliang</a>.
+                        Special thanks to <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a> and <a href="http://twitter.github.com/bootstrap">Twitter Bootstrap</a>.
+                    </p>
+                </address>
+            </div>
+        </div>
+    </footer>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://blog.nipy.org/theme/js/bootstrap.min.js"></script>
 </body>
 </html>
