@@ -80,11 +80,12 @@ recognize.
 For example, our original NIPY grant application asked for salaries for two
 full-time programmers to help us apply software engineering methods to writing
 neuroimaging software.  We did hire two programmers but we had given them an
-impossible job.  We were asking them to write software to do new and useful
-things in a field they did not know.  The consumers for their code and
-documentation were also scientists in this field.  We scientists spend more
-time than we think working out how to talk to our colleagues. That experience
-is very hard to teach.
+impossible job.  To do a good job, they had to now become experts in a
+scientific field they did not know. Useful code and documentation had to be
+written so that other scientists in the field would find it easy to follow.
+To do this, you need to know the field.  We scientists spend more time than we
+think working out how to talk to our colleagues. That experience is very hard
+to teach.
 
 These articles gave me a new way to think about the false separation of
 "software" and "science". It is mysterious that we have make this separation,
