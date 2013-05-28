@@ -22,11 +22,11 @@ interesting references.  For example (from Joppa *et al*):
 Reference 11 is an article by Victor Basili and others on "Understanding the
 High-Performance-Computing Community" [^basili]. It is a thoughtful reflection
 on the experience of academic software engineers working with scientists using
-high-parallel computing. The message I took from the article was that
-scientists may have good reasons to reject suggestions from academic
-software engineers.  This is often because the solutions are too general to be
-useful for a particular problem.  The last sentence from the article is "We've
-much to learn from each other".
+massively parallel computing. The message I took from the article was that
+scientists may have good reasons to reject suggestions from academic software
+engineers.  This is often because the solutions are too general to be useful
+for a particular problem.  The last sentence from the article is "We've much
+to learn from each other".
 
 [^basili]: Basili, Victor R., et al. "Understanding the
     High-Performance-Computing Community." (2008).
