@@ -40,8 +40,7 @@ RELATIVE_URLS = True
 THEME = pjoin('pelican-themes', 'fresh')
 
 # Add downloads directory to static paths
-# 'extras' contains CNAME file
-STATIC_PATHS = ['images', 'download', 'extra']
+STATIC_PATHS = ['images', 'download', 'CNAME']
 
 # Syte stuff
 ABOUT = u'Ash from the cigarette of working on NIPY'
