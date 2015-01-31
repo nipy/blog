@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Nipy blog</title><link href="http://blog.nipy.org/" rel="alternate"></link><link href="http://blog.nipy.org/feeds/open-source.atom.xml" rel="self"></link><id>http://blog.nipy.org/</id><updated>2015-01-31T11:44:00-08:00</updated><entry><title>Ugly speaking</title><link href="http://blog.nipy.org/ugly-speaking.html" rel="alternate"></link><updated>2015-01-31T11:44:00-08:00</updated><author><name>Matthew Brett</name></author><id>tag:blog.nipy.org,2015-01-31:ugly-speaking.html</id><summary type="html">&lt;p&gt;It can be miserable reading blog posts about software.&lt;/p&gt;
+&lt;p&gt;I just skip-read &lt;a class="reference external" href="http://lucumr.pocoo.org/2014/5/12/everything-about-unicode"&gt;this post about Python 3&lt;/a&gt; by Armin
+Ronacher.  I skip-read it because I found it so ugly.&lt;/p&gt;
+&lt;p&gt;There was a BBC sitcom called &lt;a class="reference external" href="http://en.wikipedia.org/wiki/One_Foot_in_the_Grave"&gt;One foot in the grave&lt;/a&gt;.  It had a character
+called Victor Meldrew who was always angry.  His catchphrase was an enraged &lt;a class="reference external" href="https://www.youtube.com/watch?v=mLNrLI3OBwg"&gt;I
+can't believe it&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For some reason, this genre seems to be a standard for blog posts.  The author
+just can't &lt;em&gt;believe&lt;/em&gt; that X (a language or operating system) could be so
+&lt;em&gt;stupid&lt;/em&gt; as to do Y.&lt;/p&gt;
+&lt;p&gt;It is a little puzzling, because I guess most people reading someone saying
+how stupid they are, do not say &amp;quot;ah yes, thank you&amp;quot; but &amp;quot;f#&amp;#64;&amp;amp; you asshole&amp;quot;.
+So, if we do write in that style, we make it less likely the problem will be
+fixed.  I suppose that's obvious to the person writing, so there must be some
+other thing that is attractive about labeling the other person / system / idea
+as a loser.&lt;/p&gt;
+&lt;p&gt;We technical types don't like to think about soft issues like tone.  Like the
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Streetlight_effect"&gt;drunk under the lamp-post&lt;/a&gt;
+we prefer technical problems, and ignore other important problems such as the
+way we are making our readers feel.&lt;/p&gt;
+&lt;p&gt;When I am reading a blog post of the &amp;quot;I can't believe it&amp;quot; type, I feel like
+someone with bad breath is shouting in my face, and my first and strong
+reaction is to move away and avoid that person whenever I see them.  For
+example, I suppose I won't click on a link to blog post by Armin Ronacher
+again, because I predict it will make me feel bad.  I am sure that is a shame
+for me, because I have every reason to think Mr Ronacher is competent,
+intelligent and well-informed.  It is just I don't want to feel that way.  I
+find it harder to work when I feel that way.  I am less gentle with my friends
+when I feel that way.&lt;/p&gt;
+&lt;p&gt;I think what I am saying is, please, please, don't shout in my face, there is
+no need for that, and it only makes things worse.&lt;/p&gt;
+</summary><category term="open-source"></category><category term="tone"></category></entry></feed>

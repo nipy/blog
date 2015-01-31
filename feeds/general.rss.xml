@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>The Nipy blog</title><link>http://blog.nipy.org/</link><description></description><atom:link href="http://blog.nipy.org/feeds/general.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 27 May 2013 12:00:00 -0700</lastBuildDate><item><title>A separation too early</title><link>http://blog.nipy.org/science-joins-software.html</link><description>&lt;p&gt;I followed a Google+ link to an article that has just come out in Science
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Nipy blog</title><link>http://blog.nipy.org/</link><description></description><atom:link href="http://blog.nipy.org/feeds/general.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 27 May 2013 12:00:00 -0700</lastBuildDate><item><title>A separation too early</title><link>http://blog.nipy.org/science-joins-software.html</link><description>&lt;p&gt;I followed a Google+ link to an article that has just come out in Science
 magazine. The article is "Troubling Trends in Scientific
 Software Use" by Lucas Joppa and others &lt;sup id="fnref:joppa"&gt;&lt;a class="footnote-ref" href="#fn:joppa" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;I did not find Joppa's article very satisfying, but there were some

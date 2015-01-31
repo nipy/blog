@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Nipy blog</title><link href="http://blog.nipy.org/" rel="alternate"></link><link href="http://blog.nipy.org/feeds/all-en.atom.xml" rel="self"></link><id>http://blog.nipy.org/</id><updated>2015-01-31T11:44:00-08:00</updated><entry><title>Ugly speaking</title><link href="http://blog.nipy.org/ugly-speaking.html" rel="alternate"></link><updated>2015-01-31T11:44:00-08:00</updated><author><name>Matthew Brett</name></author><id>tag:blog.nipy.org,2015-01-31:ugly-speaking.html</id><summary type="html">&lt;p&gt;It can be miserable reading blog posts about software.&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Nipy blog</title><link>http://blog.nipy.org/</link><description></description><atom:link href="http://blog.nipy.org/feeds/english.rss.xml" rel="self"></atom:link><lastBuildDate>Sat, 31 Jan 2015 11:44:00 -0800</lastBuildDate><item><title>Ugly speaking</title><link>http://blog.nipy.org/ugly-speaking.html</link><description>&lt;p&gt;It can be miserable reading blog posts about software.&lt;/p&gt;
 &lt;p&gt;I just skip-read &lt;a class="reference external" href="http://lucumr.pocoo.org/2014/5/12/everything-about-unicode"&gt;this post about Python 3&lt;/a&gt; by Armin
 Ronacher.  I skip-read it because I found it so ugly.&lt;/p&gt;
 &lt;p&gt;There was a BBC sitcom called &lt;a class="reference external" href="http://en.wikipedia.org/wiki/One_Foot_in_the_Grave"&gt;One foot in the grave&lt;/a&gt;.  It had a character
@@ -29,7 +29,7 @@ find it harder to work when I feel that way.  I am less gentle with my friends
 when I feel that way.&lt;/p&gt;
 &lt;p&gt;I think what I am saying is, please, please, don't shout in my face, there is
 no need for that, and it only makes things worse.&lt;/p&gt;
-</summary><category term="open-source"></category><category term="tone"></category></entry><entry><title>A separation too early</title><link href="http://blog.nipy.org/science-joins-software.html" rel="alternate"></link><updated>2013-05-27T12:00:00-07:00</updated><author><name>Matthew Brett</name></author><id>tag:blog.nipy.org,2013-05-27:science-joins-software.html</id><summary type="html">&lt;p&gt;I followed a Google+ link to an article that has just come out in Science
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Brett</dc:creator><pubDate>Sat, 31 Jan 2015 11:44:00 -0800</pubDate><guid>tag:blog.nipy.org,2015-01-31:ugly-speaking.html</guid><category>open-source</category><category>tone</category></item><item><title>A separation too early</title><link>http://blog.nipy.org/science-joins-software.html</link><description>&lt;p&gt;I followed a Google+ link to an article that has just come out in Science
 magazine. The article is "Troubling Trends in Scientific
 Software Use" by Lucas Joppa and others &lt;sup id="fnref:joppa"&gt;&lt;a class="footnote-ref" href="#fn:joppa" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;I did not find Joppa's article very satisfying, but there were some
@@ -121,7 +121,7 @@ domain in software." Papers presented at the seventh workshop on Empirical
 studies of programmers. ACM, 1997.&amp;#160;&lt;a class="footnote-backref" href="#fnref:vessey" rev="footnote" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="scientific software"></category><category term="software engineering"></category><category term="programming"></category><category term="code"></category></entry><entry><title>Unscientific programming</title><link href="http://blog.nipy.org/unscientific-programming.html" rel="alternate"></link><updated>2013-05-26T15:30:00-07:00</updated><author><name>Matthew Brett</name></author><id>tag:blog.nipy.org,2013-05-26:unscientific-programming.html</id><summary type="html">&lt;p&gt;We various of the Berkeley NIPY crowd were in a Mexican restaurant yesterday
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Brett</dc:creator><pubDate>Mon, 27 May 2013 12:00:00 -0700</pubDate><guid>tag:blog.nipy.org,2013-05-27:science-joins-software.html</guid><category>scientific software</category><category>software engineering</category><category>programming</category><category>code</category></item><item><title>Unscientific programming</title><link>http://blog.nipy.org/unscientific-programming.html</link><description>&lt;p&gt;We various of the Berkeley NIPY crowd were in a Mexican restaurant yesterday
 lunchtime. We discussed the IPython notebook and scientific programming and
 reproducible research.&lt;/p&gt;
 &lt;p&gt;One question struck me as fundamental: &lt;em&gt;do scientists have to learn to be
@@ -193,7 +193,7 @@ science without checking your stuff.  If they need to check your stuff, you
 need to write your code &lt;em&gt;for production&lt;/em&gt;.  Then, nothing is optional.  We all
 need; version control, testing, code review, releases, documentation.&lt;/p&gt;
 &lt;!-- vim:ft=markdown
---&gt;</summary><category term="scientific software"></category><category term="software"></category><category term="programming"></category><category term="code"></category></entry><entry><title>The ubiquity of error</title><link href="http://blog.nipy.org/ubiquity-of-error.html" rel="alternate"></link><updated>2013-05-26T15:00:00-07:00</updated><author><name>Matthew Brett</name></author><id>tag:blog.nipy.org,2013-05-26:ubiquity-of-error.html</id><summary type="html">&lt;p&gt;I was talking to an esteemed colleague about six months ago about how easy it
+--&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Brett</dc:creator><pubDate>Sun, 26 May 2013 15:30:00 -0700</pubDate><guid>tag:blog.nipy.org,2013-05-26:unscientific-programming.html</guid><category>scientific software</category><category>software</category><category>programming</category><category>code</category></item><item><title>The ubiquity of error</title><link>http://blog.nipy.org/ubiquity-of-error.html</link><description>&lt;p&gt;I was talking to an esteemed colleague about six months ago about how easy it
 was to believe that we do not make errors, unless we check.&lt;/p&gt;
 &lt;p&gt;He said that he had noticed this change when his students and research
 assistants started to use their own computer programs to analyze data.  Before
@@ -233,9 +233,9 @@ science, as routinely practiced, is reliable!&lt;/p&gt;
 &lt;p&gt;-- &lt;cite&gt; David L. Donoho, Arian Maleki, Inam Ur Rahman, Morteza Shahram and
 Victoria Stodden (2009) Reproducible Research in Computational Harmonic
 Analysis.  Computing in Science and Engineering 11(1) pp 8-18&lt;/p&gt;
-&lt;/blockquote&gt;</summary><category term="scientific software"></category><category term="software"></category><category term="programming"></category><category term="code"></category><category term="reproducible research"></category></entry><entry><title>Nipy World blog moved from there to here</title><link href="http://blog.nipy.org/nipy-moved.html" rel="alternate"></link><updated>2013-05-12T19:42:00-07:00</updated><author><name>Matthew Brett</name></author><id>tag:blog.nipy.org,2013-05-12:nipy-moved.html</id><summary type="html">&lt;p&gt;The Nipy World blog used to be on Blogspot at &lt;a href="http://nipyworld.blogspot.com"&gt;http://nipyworld.blogspot.com&lt;/a&gt;.
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Brett</dc:creator><pubDate>Sun, 26 May 2013 15:00:00 -0700</pubDate><guid>tag:blog.nipy.org,2013-05-26:ubiquity-of-error.html</guid><category>scientific software</category><category>software</category><category>programming</category><category>code</category><category>reproducible research</category></item><item><title>Nipy World blog moved from there to here</title><link>http://blog.nipy.org/nipy-moved.html</link><description>&lt;p&gt;The Nipy World blog used to be on Blogspot at &lt;a href="http://nipyworld.blogspot.com"&gt;http://nipyworld.blogspot.com&lt;/a&gt;.
 I'm restarting the blog here because it's easier and more fun to write the blog
 using &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt;.  I hope that it will be easier for
 my fellow NIPistas to add their own posts using Github.&lt;/p&gt;
 &lt;!-- vim:ft=markdown
---&gt;</summary><category term="Nipy"></category><category term="Nipyworld"></category><category term="Blog"></category></entry></feed>
+--&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Brett</dc:creator><pubDate>Sun, 12 May 2013 19:42:00 -0700</pubDate><guid>tag:blog.nipy.org,2013-05-12:nipy-moved.html</guid><category>Nipy</category><category>Nipyworld</category><category>Blog</category></item></channel></rss>

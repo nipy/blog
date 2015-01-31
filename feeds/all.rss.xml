@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>The Nipy blog</title><link>http://blog.nipy.org/</link><description></description><atom:link href="http://blog.nipy.org/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 27 May 2013 12:00:00 -0700</lastBuildDate><item><title>A separation too early</title><link>http://blog.nipy.org/science-joins-software.html</link><description>&lt;p&gt;I followed a Google+ link to an article that has just come out in Science
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Nipy blog</title><link>http://blog.nipy.org/</link><description></description><atom:link href="http://blog.nipy.org/feeds/all.rss.xml" rel="self"></atom:link><lastBuildDate>Sat, 31 Jan 2015 11:44:00 -0800</lastBuildDate><item><title>Ugly speaking</title><link>http://blog.nipy.org/ugly-speaking.html</link><description>&lt;p&gt;It can be miserable reading blog posts about software.&lt;/p&gt;
+&lt;p&gt;I just skip-read &lt;a class="reference external" href="http://lucumr.pocoo.org/2014/5/12/everything-about-unicode"&gt;this post about Python 3&lt;/a&gt; by Armin
+Ronacher.  I skip-read it because I found it so ugly.&lt;/p&gt;
+&lt;p&gt;There was a BBC sitcom called &lt;a class="reference external" href="http://en.wikipedia.org/wiki/One_Foot_in_the_Grave"&gt;One foot in the grave&lt;/a&gt;.  It had a character
+called Victor Meldrew who was always angry.  His catchphrase was an enraged &lt;a class="reference external" href="https://www.youtube.com/watch?v=mLNrLI3OBwg"&gt;I
+can't believe it&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For some reason, this genre seems to be a standard for blog posts.  The author
+just can't &lt;em&gt;believe&lt;/em&gt; that X (a language or operating system) could be so
+&lt;em&gt;stupid&lt;/em&gt; as to do Y.&lt;/p&gt;
+&lt;p&gt;It is a little puzzling, because I guess most people reading someone saying
+how stupid they are, do not say &amp;quot;ah yes, thank you&amp;quot; but &amp;quot;f#&amp;#64;&amp;amp; you asshole&amp;quot;.
+So, if we do write in that style, we make it less likely the problem will be
+fixed.  I suppose that's obvious to the person writing, so there must be some
+other thing that is attractive about labeling the other person / system / idea
+as a loser.&lt;/p&gt;
+&lt;p&gt;We technical types don't like to think about soft issues like tone.  Like the
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Streetlight_effect"&gt;drunk under the lamp-post&lt;/a&gt;
+we prefer technical problems, and ignore other important problems such as the
+way we are making our readers feel.&lt;/p&gt;
+&lt;p&gt;When I am reading a blog post of the &amp;quot;I can't believe it&amp;quot; type, I feel like
+someone with bad breath is shouting in my face, and my first and strong
+reaction is to move away and avoid that person whenever I see them.  For
+example, I suppose I won't click on a link to blog post by Armin Ronacher
+again, because I predict it will make me feel bad.  I am sure that is a shame
+for me, because I have every reason to think Mr Ronacher is competent,
+intelligent and well-informed.  It is just I don't want to feel that way.  I
+find it harder to work when I feel that way.  I am less gentle with my friends
+when I feel that way.&lt;/p&gt;
+&lt;p&gt;I think what I am saying is, please, please, don't shout in my face, there is
+no need for that, and it only makes things worse.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matthew Brett</dc:creator><pubDate>Sat, 31 Jan 2015 11:44:00 -0800</pubDate><guid>tag:blog.nipy.org,2015-01-31:ugly-speaking.html</guid><category>open-source</category><category>tone</category></item><item><title>A separation too early</title><link>http://blog.nipy.org/science-joins-software.html</link><description>&lt;p&gt;I followed a Google+ link to an article that has just come out in Science
 magazine. The article is "Troubling Trends in Scientific
 Software Use" by Lucas Joppa and others &lt;sup id="fnref:joppa"&gt;&lt;a class="footnote-ref" href="#fn:joppa" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;I did not find Joppa's article very satisfying, but there were some
