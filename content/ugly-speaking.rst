@@ -45,6 +45,3 @@ for me, because I have every reason to think Mr Ronacher is competent,
 intelligent and well-informed.  It is just I don't want to feel that way.  I
 find it harder to work when I feel that way.  I am less gentle with my friends
 when I feel that way.
-
-I think what I am saying is, please, please, don't shout in my face, there is
-no need for that, and it only makes things worse.
