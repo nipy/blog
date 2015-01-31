@@ -12,12 +12,12 @@ TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = u'en'
 
 # atom feeds
-FEED_ATOM = 'feeds/all.atom.xml'
+FEED_ATOM = 'feeds/english.atom.xml'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 # RSS feeds
-FEED_RSS = 'feeds/all.rss.xml'
+FEED_RSS = 'feeds/english.rss.xml'
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
@@ -40,7 +40,8 @@ RELATIVE_URLS = True
 THEME = pjoin('pelican-themes', 'fresh')
 
 # Add downloads directory to static paths
-STATIC_PATHS = ['images', 'download']
+# 'extras' contains CNAME file
+STATIC_PATHS = ['images', 'download', 'extra']
 
 # Syte stuff
 ABOUT = u'Ash from the cigarette of working on NIPY'
@@ -51,6 +52,3 @@ CONTACT = u'nipy-devel@neuroimaging.scipy.com'
 
 # Pages that should be served as links (all pages in contents/pages)
 DISPLAY_PAGES_ON_MENU = True
-
-# Copy CNAME file
-FILES_TO_COPY=(('extra/CNAME', 'CNAME'),)
